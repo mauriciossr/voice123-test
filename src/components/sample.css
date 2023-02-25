@@ -1,0 +1,26 @@
+@media screen and (max-width: 820px) {
+  .container {
+    display: grid;
+    grid-template-columns: 100px auto;
+    justify-items: baseline;
+    padding: 2rem;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 821px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    padding: 3rem;
+    width: 50%;
+  }
+}
+
+.container {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 5px #0003, 0 2px 2px #00000024, 0 3px 1px -2px #0000001f
+}
